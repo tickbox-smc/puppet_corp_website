@@ -1,0 +1,27 @@
+{
+  "author": "Chris Machler",
+  "dependencies": [
+  	{"name":"puppetlabs/apache","version_requirement":">=1.10.0"},
+  	{"name":"puppetlabs/mysql","version_requirement":">=3.8.0"},
+  	{"name":"puppetlabs/haproxy","version_requirement":">=1.5.0"},
+  	{"name":"jlambert121/yum","version_requirement":">=0.2.1"}
+  ],
+  "license": "MIT",
+  "name": "corp_website",
+  "operatingsystem_support": [
+  	{
+      "operatingsystem": "CentOS",
+      "operatingsystemrelease": "7"
+      }
+    ],
+  "project_page": "https://github.com/cmachler/puppet-application-orchestration-example-stack-module",
+  "requirements": [
+  	{
+      "name": "puppet",
+      "version_requirement": ">= 3.0.0 < 5.0.0"
+    }
+  ],
+  "source": "https://github.com/cmachler/puppet-application-orchestration-example-stack-module.git",
+  "summary": "Module to deploy example corporate website stack for Application Orchestration example.",
+  "version": "0.1.0"
+}
